@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6a97aa-b34e-41f5-b9c8-68ba6105949b" name="Changes" comment="commit2">
+    <list default="true" id="3c6a97aa-b34e-41f5-b9c8-68ba6105949b" name="Changes" comment="commitTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Hamburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/HotDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/HotDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Sandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Cafe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,22 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/username/IdeaProjects/collok3_Cafe&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/username/IdeaProjects/lab4_del_commit",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.TestTea">
-    <configuration name="TestCofee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Application.Cafe">
+    <configuration name="Cafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.Cafe" />
       <module name="collok3_Cafe" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCofee" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cafe" />
         <item itemvalue="JUnit.TestTea" />
         <item itemvalue="JUnit.TestSandwich" />
         <item itemvalue="JUnit.TestHotDog" />
         <item itemvalue="JUnit.TestHamburger" />
-        <item itemvalue="JUnit.TestCofee" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670233642388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commitTest">
+      <created>1670246176066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670246176066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1" />
     <MESSAGE value="commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
+    <MESSAGE value="commitTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="commitTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/collok3_Cafe$TestBeverage_testBrew.ic" NAME="TestBeverage.testBrew Coverage Results" MODIFIED="1670230192298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
