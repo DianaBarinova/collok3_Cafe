@@ -2,21 +2,21 @@ package util;
 public abstract class Beverage {
 
     final void prepareDrink() {
-        boilWater();
-        brew();
-        pourInCup();
-        addIngredients();
+       System.out.println(boilWater());
+       System.out.println(brew());
+       System.out.println(pourInCup());
+       System.out.println(addIngredients());
     }
 
-    public abstract void brew();
+    public abstract String brew();
 
-    public abstract void addIngredients();
+    public abstract String addIngredients();
 
-    public void boilWater() {
-        System.out.println("Boiling water");
+    public String boilWater() {
+        return "Boiling water";
     }
 
-    void pourInCup() {
-        System.out.println("Pouring into cup");
+    public String pourInCup() {
+        return "Pouring into cup";
     }
 }

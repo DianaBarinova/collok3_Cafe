@@ -1,11 +1,11 @@
 package util;
 public class Tea extends Beverage {
     @Override
-    public void brew() {
-        System.out.println( "Making tea");
+    public String brew() {
+        return "Making tea";
     }
     @Override
-    public void addIngredients() {
-        System.out.println("Adding lemon");
+    public String addIngredients() {
+        return "Adding lemon";
     }
 }
