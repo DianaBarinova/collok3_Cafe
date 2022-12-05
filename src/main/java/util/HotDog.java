@@ -1,10 +1,10 @@
 package util;
 
 public class HotDog extends Dish{
-    public void smearSauce(){
-        System.out.println("Adding mustard");
+    public String smearSauce(){
+        return "Adding mustard";
     }
-    public void addIngredients(){
-        System.out.println("Adding  sausage");
+    public String addIngredients(){
+        return "Adding  sausage";
     }
 }

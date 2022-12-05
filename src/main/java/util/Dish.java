@@ -2,15 +2,15 @@ package util;
 
 public abstract class Dish {
     final void prepareSnack() {
-        fryingBuns();
-        smearSauce();
-        addIngredients();
+       System.out.println( fryingBuns());
+        System.out.println(smearSauce());
+        System.out.println(addIngredients());
     }
 
-   abstract void addIngredients();
-    abstract void smearSauce();
+   public abstract String addIngredients();
+    public abstract String smearSauce();
 
-    private void fryingBuns() {
-        System.out.println("Frying buns");
+    public String fryingBuns() {
+        return "Frying buns";
     }
 }

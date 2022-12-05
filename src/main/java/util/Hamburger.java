@@ -1,10 +1,10 @@
 package util;
 
 public class Hamburger extends  Dish{
-    public void smearSauce(){
-        System.out.println("Adding ketchup and mustard");
+    public String smearSauce(){
+        return "Adding ketchup and mustard";
     }
-    public void addIngredients(){
-        System.out.println("Adding cutlet, cheese and tomato");
+    public String addIngredients(){
+        return "Adding cutlet, cheese and tomato";
     }
 }
